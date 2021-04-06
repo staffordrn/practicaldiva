@@ -1,0 +1,546 @@
+/* custom styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body {
+    margin-top: 5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #656565;
+}
+.old {
+    display: none;
+}
+nav {
+    border-bottom: 5px solid #55c2f1;
+    background: white;
+}
+.desktop-logo {
+    display: none;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
+    color: #55c2f1;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-item {
+    padding: 0 .75em;    
+}
+.dropdown {
+    width: 100% ;
+}
+.s-message {
+    margin-top: 2em;
+}
+.top-help-btn-d {
+    display: none;
+}
+.btn-secondary {
+    background: transparent;
+    border: none;
+    color: #55c2f1;
+}
+.btn-secondary:hover {
+    color: white;
+    background: #55c2f1;
+}
+.form-label {
+    padding-right: 1em;
+}
+.dropdown-toggle {
+    padding: 0;
+}
+section {
+    margin-bottom: 2em;
+}
+.blue {
+    background: #55c2f1;
+}
+.yellow {
+    background: #ffda47;
+}
+.diva-img {
+    padding-top: 2em;
+    width: 75%;
+}
+.bio img {
+    border-radius: 3px;
+    padding-bottom:1em;
+}
+.title {
+    text-align: center;
+}
+.title h1, button {
+    margin: 1em 0;
+}
+.title h1 {
+    font-size: 2.5em;
+}
+.title p {
+    font-size: 1.75em;
+}
+.col-sm.image-fluid img {
+    max-width: 100%
+}
+.callout-btn {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.btn-yellow, .card-body .btn, .card {
+    box-shadow: 0px 3px 6px #00000029;
+}
+.btn-yellow {
+    color: #55c2f1;
+    background: #ffda47;
+    border: none;
+    font-size: 1.5em;
+}
+.btn-yellow:hover {
+    background: #55c2f1;
+    color: white;
+}
+.btn-primary:active {
+    background: #ffda47;
+    color: #55c2f1;
+}
+h2, h3 {
+    color: #55c2f1;
+    /* font-weight: bold; */
+}
+.notification {
+    font-size: 3em;
+    text-align: center;
+    color: #55c2f1;
+}
+.title.blue h1, .title.blue p{
+    color: white;
+}
+.title.blue {
+    padding-top: 3em;
+}
+.title h2{
+    font-size: 2.5em;
+    padding: .75em;
+}
+.card {
+    margin-top: 1.25em;
+    border: none;
+    text-align: center;
+}
+.quote {
+    margin-bottom: 3em;
+}
+.card-header {
+    background: #55c2f1;
+    color: white;
+    text-align: center;
+    border-bottom: none;
+}
+.card-body .btn, form .btn, .accordion .btn {
+    background-color: #55c2f1;
+    color: white;
+    border: none;
+}
+.quote {
+    min-height: 300px;
+}
+.clients-tagline h2, .clients-tagline p {
+        color: white;
+        text-align: center;
+}
+.clients-tagline h2 {
+    font-size: 3em;
+}
+.clients-tagline p {
+    font-size: 1.5em;
+}
+.clients-d {
+    display: none;    
+}
+form .btn-primary:hover {
+    background: #ffda47;
+    color: #55c2f1;
+}
+form .btn-primary:active {
+    background: #55c2f1;
+    color: #ffda47;
+}
+.blue h2 {
+    color: white;
+    text-align: center;
+} 
+.blue h3 {
+    margin-top: 1.25em;
+} 
+.blue, .yellow {
+    padding-bottom: 2em;
+}
+.blockquote::before {
+	background: transparent;
+	color: #ffda47;
+	font-size: 14em;
+	font-family: 'Redressed', cursive;
+	content: "\201D";
+    left: 35%;
+    position: absolute;
+    top: -130px;
+    z-index: 2;
+}
+.blockquote p {
+    margin: 1em 0;
+}
+.help-btn {
+    margin-bottom: 2em;
+}
+.accordion-item {
+    background: white;
+    border-radius: 5px;
+}
+.accordion-header button {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.accordion-button:not(.collapsed) {
+    background-color:#55c2f1;
+    color: white;
+}
+form .mb-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-control {
+    color: #656565;
+}
+.date {
+    padding: 1em;
+    margin-top: 1em;
+}
+.desktop-forms {
+    display: none;
+}
+.show {
+    border: none;
+}
+.small-jobs {
+    font-size: 1.5em !important;
+}
+.artist-display p {
+    font-size: 1em;
+}
+.artist-display a {
+    text-decoration: none;
+    color: #55c2f1;
+}
+.artist-display a:visited {
+    text-decoration: none;
+    color: #656565;
+}
+.cta {
+    text-align: center;
+    margin-top: 3em;
+    color: #55c2f1;
+}
+.cta h3 {
+    padding: 1.5em;
+    font-size: 1.5em;
+}
+.ftr {
+    background: #55c2f1;
+}
+.ftr-img {
+    display: flex;
+    justify-content: center;
+}
+.ftr-row {
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.ftr-col-1 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.ftr a, .ftr p{
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+}
+.ftr a {
+    font-size: 1.25em;
+}
+.social img {
+        width: 40px;
+}
+.mobile-footer-logo {
+    width: 150px;
+}
+.desktop-footer-logo {
+    display: none;
+}
+.footer-content {
+    width: 80%;
+    padding-top: 2em;
+}
+.register-form {
+    margin: 0 auto;
+    width: 90%;
+    list-style-type: none;
+}
+@media (min-width: 767px) {
+    .notification {
+        margin: 2em;
+    }
+    .ftr {
+        padding-top: 2em;
+    }
+    .footer-content {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .ftr-row-2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        align-content: center;
+    }
+    .ftr-col-1 {
+        align-items: flex-start;
+    }
+    .ftr-row-1 {
+        grid-column-start: 2;
+        grid-column-end: span 1;
+        grid-row-start: 1;
+        grid-row-end: span 1;
+    }
+    .ftr-row-3 {
+        grid-column-start: 2;
+        grid-column-end: span 1;
+        grid-row-start: 2;
+        grid-row-end: span 1;
+        width: 80%;
+        /* align-items: end; */
+    }
+    .ftr-row-4 {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+        grid-row-start: 3;
+        grid-row-end: span 1;
+    }
+    .mobile-footer-logo {
+        display: none;
+    }
+    .desktop-footer-logo {
+    display: block;
+    width: 200px;
+    }
+    .social img {
+        width: 40px;
+    }
+    .ftr-row-4 .col-sm {
+       display: flex;
+       align-items:flex-end;
+       justify-content: center;
+    }
+}
+@media (min-width: 992px) { 
+    .title h1 {
+        font-size: 4em !important;
+        line-height: 1.5em; 
+    }
+    .greeting {
+        color: #55c2f1;
+    }
+    .title h2{
+    font-size: 3em;
+    padding: .75em;
+}
+    .desktop-logo {
+        display: inline-block;
+        position: absolute;
+        top: 1em;
+        left: 2em;
+        width: 200px;
+    }
+    .mobile-logo, .navbar-brand {
+    display: none;
+    }
+    .navbar-nav {
+        align-items: center;
+        padding-left: 15em;
+    }
+    .title h2{
+    margin: 2em 0 1em 0;
+    }
+    form.dropdown-menu {
+        right: -200px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .diva-img {
+        width: 80%;
+    }
+    .btn-yellow {
+        font-size: 2.25em;
+        padding: .5em;
+    }
+    .callout-btn {
+    padding: 0;
+    }
+    .bio {
+        padding-bottom: 10em
+    }
+    .top-help-btn-d {
+        display: block;
+        margin: 3em auto;
+    }
+    .top-help-btn-m {
+        display: none;
+    } 
+    .dropdown-toggle {
+        padding: 8px;
+    }
+    .dropdown {
+        width: 150%;
+    }
+    .tagline {
+        font-size: 2em !important;
+    }
+    .bio {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .card-text {
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    .blue {
+        background: none; 
+        position: relative;
+    }
+    .yellow {
+        background: none;
+    }
+    .yellow-bg {
+        background: #ffda47;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        z-index: -2;
+    }
+    .blue-bg {
+        background: #55c2f1;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 200px;
+        z-index: -2;
+    }
+    .clients-m {
+        display: none;
+    }
+    .clients-d {
+        display: block;
+        color:#55c2f1;
+    }
+    .clients-tagline-d {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .clients-tagline-d h2 {
+        font-size: 3.5em;
+        color: white;
+        padding: .5em;
+    }
+    .clients-tagline-d p {
+        font-size: 2em;
+        color: white;
+    }
+    .services_display {
+        padding-bottom: 6em;    
+    }
+    .reviews_display {
+        padding-bottom: 4em; 
+        padding-top: 7em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .reviews_display .col:first-child {
+        grid-column-start: 1;
+        grid-column-end:  2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .reviews_display .col:nth-child(2) {
+        grid-column-start: 2;
+        grid-column-end:  3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .reviews_display .col:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end:  2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .reviews_display .col:nth-child(4) {
+        grid-column-start: 2;
+        grid-column-end:  3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .reviews_display .col:last-child {
+        grid-column-start: 3;
+        grid-column-end:  4;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+    }
+    .mobile-forms {
+        display: none;
+    }
+    .desktop-forms {
+        display:block;
+        padding-bottom: 5em;
+    }
+    .desktop-forms form {
+        background: white;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .desktop-forms h3 {
+        text-align: center;
+    }
+    .form-title {
+    color: #55c2f1;
+    margin-bottom: 1em
+    }
+    .form-control {
+    background: #55c2f11a;
+    border: none;
+    }
+    .cta h3 {
+        font-size: 3em;
+    }
+    .footer-content {
+        width: 65%;
+    }
+    .ftr-row-3 {
+        width: 90%;
+    }
+     .title.blue h1, .title.blue h2 {
+        color: #55c2f1;
+    }
+    .register-form {
+    width: 50%;
+    }
+}
